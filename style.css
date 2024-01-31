@@ -1,0 +1,31 @@
+body {background-color: rgb(236, 233, 225); } 
+.center {text-align: center;}
+.register {background-color:  rgb(64, 155, 240); text-align: center; padding: 200px; margin-bottom: -19%; }
+footer {background-color: rgb(141, 0, 0);  ; margin-top: 300px; padding: 40px; }
+.footer { display: inline-block; justify-content: space-around; text-align: center; width: 30%; min-height: 3vh;  text-decoration: none; font-size: medium; color: rgb(236, 233, 225); }
+.calender { width: 600px; height: 600px; text-align: center; position: relative; left: 650px; margin-top: 50px; }
+.cc {  text-align: center;}
+.TBD {  width: 1280px; height:600px;  margin-bottom: -7%;  }
+.nav {display: flex; justify-content: space-around; align-items:center; width: 30%; min-height: 6vh; float: right; margin-top:20px; margin-right: 200px;} 
+nav{ margin-top: 20px;}
+.heading { font-size: 40px; display: inline-block; min-height: 6vh;}
+.links { text-decoration: none; font-weight: bold; font-size: 20px; padding: 14px 16px ; color: black; } 
+.links:hover { background-color: rgb(141, 0, 0);}
+h1 { font-family: 'fantasy'; display:flex;  align-items:center; justify-content: center; margin-top: 30px; margin-left: 30px;}
+.logohead { float: left; margin-top: 10px; margin-left: 40px;}
+.title { background-color:rgb(64, 155, 240); text-align: center; padding: 10px;  }
+ .imageleft {text-align: left; margin: 20px; margin-left: 200px; margin-top: 60px; font-family: 'Courier New', Courier, monospace;}
+ .imageright { text-align: right; margin: 20px; margin-right: 200px; margin-bottom: 50px; font-family: 'Courier New', Courier, monospace;}
+ .outline { border-style: solid; border-color: black;   width:1000px; height: 1400px; text-align: left; position: relative; top: 80px; margin-bottom: -100px; margin-left: 70px;}
+.imagelefttext { float: right; margin-top: 200px;  margin-right: 350px; text-align: center; padding: 100px;}
+.imagerighttext { float: left; margin-top: 200px; margin-left: 350px; text-align: center;  }
+.wrapper {padding: 50px; text-align: center;}
+.btn {text-decoration: none; text-align: center; font-family: monospace; margin-top: 20px;}
+.video {padding: 50px; text-align: center;}
+.info{ text-align: center; font-family: 'Courier New', Courier, monospace; font-size: large; margin-top: 120px;}
+.contact { font-family: 'Times New Roman', Times, serif; font-size: large; margin-left: 70px; margin-top: 50px;}
+.adv {margin-left:170px; font-family: 'Courier New', Courier, monospace; font-size: 17px; text-emphasis: bold;}
+h4 {margin-left: 170px; font-family: 'Times New Roman', Times, serif; text-emphasis: bold;}
+.add {text-align: center; font-family: 'Courier New', Courier, monospace; font-size: large; margin-top:60px;}
+.adc {font-family: 'Courier New', Courier, monospace; font-size: 17px; text-emphasis: bold; text-align: center;}
+.map {float: right;}
