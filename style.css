@@ -3,7 +3,7 @@ body {background-color: rgb(236, 233, 225); }
 .register {background-color:  rgb(64, 155, 240); text-align: center; padding: 200px; margin-bottom: -19%; }
 footer {background-color: rgb(141, 0, 0);  ; margin-top: 300px; padding: 40px; }
 .footer { display: inline-block; justify-content: space-around; text-align: center; width: 30%; min-height: 3vh;  text-decoration: none; font-size: medium; color: rgb(236, 233, 225); }
-.calender { width: 600px; height: 600px; text-align: center; position: relative; left: 300px; margin-top: 50px; }
+.calender { width: 600px; height: 600px; text-align: center; position: relative; left: 200px; margin-top: 50px; }
 .cc {  text-align: center;}
 .TBD {  width: 1280px; height:600px;  margin-bottom: -7%;  }
 .nav {display: flex; justify-content: space-around; align-items:center; width: 30%; min-height: 6vh; float: right; margin-top:20px; margin-right: 200px;} 
