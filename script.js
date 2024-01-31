@@ -43,7 +43,7 @@ $(document).ready(function()
 {
 $('#image4').hover(function ()
 {
-$('#image4').attr('src', 'cr1.PNG') ;
+$('#image4').attr('src', 'cr1.png') ;
 },
 function()//on out
 {
@@ -54,7 +54,7 @@ function()//on out
 {
 $('#image5').hover(function ()
 {
-$('#image5').attr('src', 'cr2.PNG') ;
+$('#image5').attr('src', 'cr2.png') ;
 },
 function()//on out
 {
@@ -67,7 +67,7 @@ $(document).ready(function()
 {
 $('#image6').hover(function ()
 {
-$('#image6').attr('src', '2022.PNG') ;
+$('#image6').attr('src', '2022.png') ;
 },
 function()//on out
 {
@@ -85,7 +85,7 @@ $(document).ready(function()
 {
 $('#image7').hover(function ()
 {
-$('#image7').attr('src', '2023.PNG') ;
+$('#image7').attr('src', '2023.png') ;
 },
 function()//on out
 {
