@@ -103,8 +103,8 @@ function()//on out
 
 
  fetch("settings.json")
-let 'president' = data.president;
-let 'vicepresident' = data.vicepresident;
+let '#president' = data.president;
+let '#vicepresident' = data.vicepresident;
 
 
 
