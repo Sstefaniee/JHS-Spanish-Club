@@ -28,4 +28,4 @@ h1 { font-family: 'fantasy'; display:flex;  align-items:center; justify-content:
 h4 {margin-left: 170px; font-family: 'Times New Roman', Times, serif; text-emphasis: bold;}
 .add {text-align: center; font-family: 'Courier New', Courier, monospace; font-size: large; margin-top:60px;}
 .adc {font-family: 'Courier New', Courier, monospace; font-size: 17px; text-emphasis: bold; text-align: center;}
-.map {float: right;}
+.map {}
