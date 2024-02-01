@@ -1,4 +1,5 @@
-[ 
+{
+"Board": [ 
   {"president": "Em Granados" },
   {"vicepresident": "Stefanie Sandoval & Raul Valenzuela"}, 
   {"secretary": "Citlali Juarez"}, 
@@ -8,3 +9,4 @@
 
 
 ]
+}
