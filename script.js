@@ -105,7 +105,7 @@ $(document).ready(function()
 {
 $.getJSON('settings.json', function(data) {
   
-   $('.president').html(Board.president); 
+   $('#president').html(data.president); 
 
   
   $('#vicepresident').html(data.vicepresident); 
