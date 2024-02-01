@@ -120,3 +120,5 @@ $(document).ready(function()
   })
 });
 
+var map = L.map('map').setView([33.94514,-118.23075], 13)
+
