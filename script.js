@@ -102,9 +102,27 @@ function()//on out
 });
 
 
- fetch("settings.json")
-let '#president' = data.president;
-let '#vicepresident' = data.vicepresident;
+$.getJSON('settings.json', function(data) {
+  
+   $('.adv').html(data.president); 
+
+  
+  $('#vicepresident').html(data.vicepresident); 
+
+   
+
+  $('#secretary').html(data.secretary); 
+
+   
+
+  $('#treasurer').html(data.treasurer); 
+
+   
+
+  $('#eventscoordinator').html(data.eventscoordinator); 
+
+     
+});
 
 
 
