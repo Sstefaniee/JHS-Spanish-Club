@@ -115,7 +115,8 @@ $(document).ready(function()
   
   $('#eventscoordinator').html(data.eventscoordinator);
   
-
+let '#president' = obj.president;
+let '#vicepresident' = obj.vicepresident;
 
   })
 });
