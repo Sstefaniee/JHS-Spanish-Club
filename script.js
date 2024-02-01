@@ -101,3 +101,20 @@ function()//on out
 })
 });
 
+$(document).ready(function() 
+{
+  $('#president').html(data.president);
+  
+  $('#vicepresident').html(data.vicepresident);
+  
+  $('#secretary').html(data.secretary);
+  
+  $('#treasurer').html(data.treasurer);
+  
+  $('#eventscoordinator').html(data.eventscoordinator);
+  
+
+
+  })
+});
+
