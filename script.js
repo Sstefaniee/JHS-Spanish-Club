@@ -103,6 +103,8 @@ function()//on out
 
 $(document).ready(function() 
 {
+  $.getJSON("settings.json", function(data){
+    console.log(data)
   $('#president').html(data.president);
   
   $('#vicepresident').html(data.vicepresident);
