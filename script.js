@@ -101,33 +101,13 @@ function()//on out
 })
 });
 
-$(document).ready(function() 
-{
-  $.getJSON("settings.json", function(data){
-    console.log(data)
-  $('.adv').html(data.president);
-  
-  $('#vicepresident').html(data.vicepresident);
-  
-  $('#secretary').html(data.secretary);
-  
-  $('#treasurer').html(data.treasurer);
-  
-  $('#eventscoordinator').html(data.eventscoordinator);
-  
-let 'president' = obj.president;
-let 'vicepresident' = obj.vicepresident;
 
-  })
-});
-
-fetch("settings.json")
-.then( response => response.json())
-.then(data => showInfo (data));
-
-function showInfo(data) {console.log(data.Board);}
-                      
+ fetch("settings.json")
+let 'president' = data.president;
+let 'vicepresident' = data.vicepresident;
 
 
-var map = L.map('map').setView([33.94514,-118.23075], 13)
+
+
+
 
