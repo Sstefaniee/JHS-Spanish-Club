@@ -104,7 +104,7 @@ function()//on out
 
 $.getJSON('settings.json', function(data) {
   
-   $('.adv').html(data.president); 
+   $('#president').id(data.president); 
 
   
   $('#vicepresident').html(data.vicepresident); 
