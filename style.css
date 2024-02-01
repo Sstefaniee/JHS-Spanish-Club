@@ -17,7 +17,7 @@ h1 { font-family: 'fantasy'; display:flex;  align-items:center; justify-content:
  .imageleft {text-align: left; margin: 20px; margin-left: 90px; margin-top: 60px; font-family: 'Courier New', Courier, monospace;}
  .imageright { text-align: right; margin: 20px; margin-right: 90px; margin-bottom: 50px; font-family: 'Courier New', Courier, monospace;}
  .outline { border-style: solid; border-color: black;   width:850px; height: 1400px; text-align: left; position: relative; top: 80px; margin-bottom: -100px; margin-left: 70px;}
-.imagelefttext { float: right; margin-top: 200px;  margin-right: 100px; text-align: center; padding: 100px;}
+.imagelefttext { float: right; margin-top: 200px;  margin-right: 80px; text-align: center; padding: 100px;}
 .imagerighttext { float: left; margin-top: 200px; margin-left: 100px; text-align: center;  }
 .wrapper {padding: 50px; text-align: center;}
 .btn {text-decoration: none; text-align: center; font-family: monospace; margin-top: 20px;}
