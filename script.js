@@ -121,5 +121,13 @@ let 'vicepresident' = obj.vicepresident;
   })
 });
 
+fetch("settings.json")
+.then( response => response.json())
+.then(data => showInfo (data));
+
+function showInfo(data) {console.log(data.Board);}
+                      
+
+
 var map = L.map('map').setView([33.94514,-118.23075], 13)
 
