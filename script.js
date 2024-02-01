@@ -101,7 +101,8 @@ function()//on out
 })
 });
 
-
+$(document).ready(function() 
+{
 $.getJSON('settings.json', function(data) {
   
    $('#president').html(data.president); 
@@ -109,19 +110,16 @@ $.getJSON('settings.json', function(data) {
   
   $('#vicepresident').html(data.vicepresident); 
 
-   
 
   $('#secretary').html(data.secretary); 
 
-   
 
   $('#treasurer').html(data.treasurer); 
 
-   
-
+  
   $('#eventscoordinator').html(data.eventscoordinator); 
 
-     
+})
 });
 
 
